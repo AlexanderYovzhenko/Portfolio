@@ -1,38 +1,37 @@
 @import "../../styles/variables.module.scss";
 
-.main {
+.about {
   padding: 20% 20px;
-  overflow: hidden;
 
-  .main__container {
+  .about__container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
-    .main__describe {
-      .main__title {
+    .about__describe {
+      .about__title {
         font-size: 3.5rem;
         letter-spacing: 5px;
         color: $base-color-light;
         text-shadow: 1px 1px 2px red, 0 0 0.2em blue;
       }
-      .main__text {
+      .about__text {
         font-size: 1.5rem;
-        text-shadow: 1px 1px 2px rgb(211, 245, 179);
+        text-shadow: 1px 1px 2px $main-color-two;
       }
-      .main__download-CV {
+      .about__download-CV {
         font-size: 2rem;
         padding: 5px 10px;
-        color: rgb(116, 116, 221);
-        background-color: rgb(211, 245, 179);
+        color: $main-color-one;
+        background-color: $main-color-two;
         border: none;
         border-radius: 10px;
         cursor: pointer;
       }
-      .main__download-CV:hover {
-        background-color: rgb(166, 223, 112);
+      .about__download-CV:hover {
+        background-color: $main-color-two_hover;
       }
-      .main__download-CV:focus {
+      .about__download-CV:focus {
         outline: none;
       }
 
@@ -41,13 +40,14 @@
       }
     }
 
-    .main__image {  
+    .about__image {  
       max-width: 70%;
+      margin-right: 15%;
       position: relative;
 
       img {
         max-width: 100%;
-        border-radius: 0 15% 30% 30%;
+        border-radius: 10% 10% 30% 30%;
       }
       &::after {
         content: '';
@@ -56,8 +56,8 @@
         left: 25%;
         width: 90%;
         height: 100%;;
-        background-color: rgba(116, 116, 221, .3);
-        box-shadow: 5px 5px 5px rgb(116, 116, 221), 5px 5px 5px rgb(116, 116, 221) inset;
+        background-color: $main-color-one_opacity;
+        box-shadow: 5px 5px 5px $main-color-one, 5px 5px 5px $main-color-one inset;
         z-index: -1;
         border-radius: 10% 50% 50% 10%;
       }
@@ -68,8 +68,8 @@
         left: 65%;
         width: 90%;
         height: 100%;
-        background-color: rgba(211, 245, 179, .3);
-        box-shadow: 5px 5px 5px rgb(211, 245, 179), 5px 5px 5px rgb(211, 245, 179) inset;
+        background-color: $main-color-two_opacity;
+        box-shadow: 5px 5px 5px $main-color-two, 5px 5px 5px $main-color-two inset;
         z-index: -1;
         border-radius: 10% 50% 50% 10%;
       }
@@ -78,7 +78,7 @@
     @media (max-width: 1024px) {
       flex-direction: column-reverse;
 
-      .main__image {
+      .about__image {
         max-width: 70%;
         margin-bottom: 50px;
       }
