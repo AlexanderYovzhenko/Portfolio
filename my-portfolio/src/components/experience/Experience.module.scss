@@ -1,0 +1,98 @@
+@import "../../styles/variables.module.scss";
+
+.experience {
+  padding: 10% 20px;
+
+  .experience__container {
+    .experience__title {
+      text-align: center;
+      margin-bottom: 70px;
+      font-size: 3.5rem;
+      letter-spacing: 5px;
+      color: $main-color-two;
+      text-shadow: 1px 1px 2px red, 0 0 0.2em blue;
+
+      @media (max-width: 1200px) {
+        margin-bottom: 50px;
+      }
+      @media (max-width: 450px) {
+        margin-bottom: 30px;
+      }
+    }
+
+    .experience__content {
+      .experience__list {
+        .experience__item {
+          display: flex;
+          justify-content: space-around;
+          align-items: flex-end;
+          text-align: center;
+          margin-bottom: 50px;
+
+          @media (max-width: 900px) {
+            flex-direction: column;
+            align-items: center;
+          }
+
+          .item__skill {
+            font-size: 2.5rem;
+            color: $main-color-one;
+            text-shadow: 1px 1px 2px $main-color-three;
+          }          
+
+          .item__body {
+            font-size: 1.5rem;
+            text-shadow: 1px 1px 2px $main-color-two;
+
+            .item__title {
+              color: $main-color-one;
+            }
+
+            span {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+
+              @media (max-width: 550px) {
+                flex-direction: column;
+                margin-top: 10px;
+              }
+            }
+  
+            .item__progress {
+              height: 10px;
+              width: 500px;
+              box-shadow: 0 0 3px $main-color-one;
+              border-radius: 10px;
+              margin: 0 20px;
+  
+              .item__progress-line {
+                height: 10px;
+                width: 100%;
+                background-color: $main-color-one;
+                border-radius: 10px;
+                animation: line-progress 3s;
+              }
+
+              @media (max-width: 1200px) {
+                width: 300px;
+              }
+              @media (max-width: 650px) {
+                width: 200px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes line-progress {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
