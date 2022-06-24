@@ -3,6 +3,7 @@ import Vezha from '../components/projects/assets/Vezha.jpg'
 import ChatOnSocket from '../components/projects/assets/ChatOnSocket.jpg'
 import RaindropsGame from '../components/projects/assets/RaindropsGame.jpg'
 import FlexPanelGallery from '../components/projects/assets/FlexPanelGallery.jpg'
+import LayoutFurnitureForHome from '../components/projects/assets/LayoutFurnitureForHome.jpg'
 
 const projects = [
   {
@@ -18,7 +19,7 @@ const projects = [
       Position: 'Full-Stack developer',
       Role: 'I completed the entire backend from start to finish, and I did the frontend as a team',
       GitHubFrontEnd: 'https://github.com/GoldenManBel/project-management-app',
-      GitHubBackEnd: 'https://github.com/GoldenManBel/nodejs2021Q4-service',
+      GitHubBackEnd: 'https://github.com/GoldenManBel/Vezha_BackEnd',
     },
   },
   {
@@ -72,6 +73,20 @@ const projects = [
       Description: 'Gallery of flexible panels',
       Languages: 'JavaScript',
       Technologies: 'HTML, CSS, Flex',
+      Instruments: 'Visual Studio Code, Chrome tools, Git',
+      Position: 'Front-End developer',
+      Role: 'I completed the whole project from start to finish',
+    },
+  },
+  {
+    name: 'Furniture of Home',
+    deploy: 'https://goldenmanbel.github.io/Layout_Furniture_for_home/',
+    screenshot: LayoutFurnitureForHome,
+    gitHub: 'https://github.com/GoldenManBel/Layout_Furniture_for_home',
+    description: {
+      Description: 'Layout furniture for home',
+      Languages: 'JavaScript',
+      Technologies: 'Prepros, HTML, SCSS',
       Instruments: 'Visual Studio Code, Chrome tools, Git',
       Position: 'Front-End developer',
       Role: 'I completed the whole project from start to finish',

@@ -26,11 +26,9 @@ const Projects = () => {
                       rel="noreferrer"
                     >
                       <h3 className={styles.project__title}>{name}</h3>
-                      <img
-                        className={styles.project__screenshot}
-                        src={screenshot}
-                        alt="Screenshot project"
-                      />
+                      <div className={styles.project__screenshot}>
+                        <img src={screenshot} alt="Screenshot project" />
+                      </div>
                     </a>
                     <a
                       href={gitHub}

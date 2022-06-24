@@ -51,8 +51,19 @@
                 text-shadow: 1px 1px 2px $main-color-three;
               }
               .project__screenshot {
-                max-width: 100%;
                 border-radius: 10px;
+                overflow: hidden;
+                position: relative;
+
+                img {
+                  max-width: 100%;
+                  border-radius: 10px;
+                  transition: all 1s ease-out;
+
+                  &:hover {
+                    transform: scale(1.1);
+                  }
+                }
               }
             }
             .project__gitHub {
