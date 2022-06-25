@@ -1,7 +1,7 @@
 @import "../../styles/variables.module.scss";
 
 .hobby {
-  padding: 10% 20px 80%;
+  padding: 10% 20px;
 
   .hobby__container {
     .hobby__title {
@@ -51,6 +51,7 @@
 
           @media (max-width: 1300px) {
             max-width: 500px;
+            transition: all linear .7s;
           }
           @media (max-width: 700px) {
             max-width: 350px;
@@ -73,6 +74,10 @@
             color: $main-color-two;
             text-align: center;
             transition: all cubic-bezier(0.61,-0.19, 0.7,-0.11) .7s;
+
+            @media (max-width: 1300px) {
+              transition: all linear .7s;
+            }
           }
 
           .item__image {
@@ -88,6 +93,10 @@
             letter-spacing: 2px;
             padding-bottom: 30px;
             transition: all cubic-bezier(0.61,-0.19, 0.7,-0.11) .7s;
+
+            @media (max-width: 1300px) {
+              transition: all linear .7s;
+            }
           }
         }
 
