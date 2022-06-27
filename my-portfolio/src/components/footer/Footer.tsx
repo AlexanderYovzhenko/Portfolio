@@ -4,7 +4,7 @@ import styles from './Footer.module.scss'
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} id={'Contacts'}>
       <div className={styles.footer__container}>
         <ul className={styles.footer__list}>
           {contacts.map(({ name, icon, link }, index) => {

@@ -14,12 +14,13 @@ const Header = () => {
   const dispatch = useAppDispatch()
   const { theme, font } = useAppSelector((state) => state.changesPage)
 
-  const setTheme = (theme: string) => (document.documentElement.className = theme)
-
   const changeThemeFn = () => {
     theme === 'dark' ? dispatch(changeTheme('light')) : dispatch(changeTheme('dark'))
-    setTheme(theme)
   }
+
+  useEffect(() => {
+    document.documentElement.className = theme
+  }, [theme])
 
   const changeFontFn = (
     value: SingleValue<{

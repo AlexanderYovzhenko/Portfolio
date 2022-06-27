@@ -44,3 +44,34 @@ ul,
 li {
   list-style: none;
 }
+
+:root,
+:root.light {
+  --base-color: black;
+  --base-color-bg: white;
+
+  --main-color-one: rgb(116, 116, 221);
+  --main-color-one_opacity: rgba(116, 116, 221, .3);
+
+  --main-color-two: rgb(211, 245, 179);
+  --main-color-two_opacity: rgba(211, 245, 179, .3);
+  --main-color-two_hover: rgb(166, 223, 112);
+
+  --main-color-three: rgb(245, 245, 71);
+}
+ 
+:root.dark {
+  --base-color: rgb(113, 212, 230);
+  // --base-color-dark: rgb(46, 41, 41);  
+  --base-color-bg: rgb(216, 208, 208);
+  
+
+  --main-color-one: #45ADFE;
+  --main-color-one_opacity: rgba(57, 115, 240, 0.3);
+
+  --main-color-two: rgb(38, 53, 25);
+  --main-color-two_opacity: rgba(192, 235, 37, 0.3);
+  --main-color-two_hover: rgb(166, 223, 112);
+
+  --main-color-three: rgb(245, 245, 71);
+}

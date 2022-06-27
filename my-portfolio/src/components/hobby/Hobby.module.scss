@@ -9,8 +9,8 @@
       margin-bottom: 70px;
       font-size: 3.5rem;
       letter-spacing: 5px;
-      color: $main-color-two;
-      text-shadow: 1px 1px 2px red, 0 0 0.2em blue;
+      color: var(--main-color-two);
+      text-shadow: 1px 1px 2px red, 0 0 0.2em var(--main-color-one);
 
       @media (max-width: 1200px) {
         margin-bottom: 50px;
@@ -22,7 +22,7 @@
 
     .hobby__slogan {
       font-size: 1.5rem;
-      text-shadow: 1px 1px 2px $main-color-two;
+      text-shadow: 1px 1px 2px var(--main-color-two);
       text-align: center;
       letter-spacing: 2px;
       padding-bottom: 30px;
@@ -65,13 +65,13 @@
     
           &:nth-child(3n) {
             .item__title {
-              color: $main-color-one;
+              color: var(--main-color-one);
             }
           }
 
           .item__title {
             font-size: 3rem;
-            color: $main-color-two;
+            color: var(--main-color-two);
             text-align: center;
             transition: all cubic-bezier(0.61,-0.19, 0.7,-0.11) .7s;
 
@@ -88,7 +88,7 @@
 
           .item__slogan {
             font-size: 1.5rem;
-            text-shadow: 1px 1px 2px $main-color-two;
+            text-shadow: 1px 1px 2px var(--main-color-two);
             text-align: center;
             letter-spacing: 2px;
             padding-bottom: 30px;
@@ -105,7 +105,7 @@
 
           .item__title {
             font-size: 3.5rem;
-            text-shadow: 1px 1px 2px red, 0 0 0.2em blue;
+            text-shadow: 1px 1px 2px red, 0 0 0.2em var(--main-color-one);
           }
 
           .item__slogan {

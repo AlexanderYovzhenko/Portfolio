@@ -9,8 +9,8 @@
       margin-bottom: 70px;
       font-size: 3.5rem;
       letter-spacing: 5px;
-      color: $main-color-two;
-      text-shadow: 1px 1px 2px red, 0 0 0.2em blue;
+      color: var(--main-color-two);
+      text-shadow: 1px 1px 2px red, 0 0 0.2em var(--main-color-one);
 
       @media (max-width: 1200px) {
         margin-bottom: 50px;
@@ -22,7 +22,7 @@
 
     .education__subtitle {
       font-size: 1.5rem;
-      text-shadow: 1px 1px 2px $main-color-two;
+      text-shadow: 1px 1px 2px var(--main-color-two);
       text-align: center;
       padding-bottom: 30px;
     }
@@ -31,7 +31,7 @@
       justify-content: space-around;
       align-items: center;
       font-size: 1.5rem;
-      text-shadow: 1px 1px 2px $main-color-two;
+      text-shadow: 1px 1px 2px var(--main-color-two);
       padding-bottom: 30px;
 
       @media (max-width: 1250px) {
@@ -65,7 +65,7 @@
       }
 
       .education__image {
-        border: 1px solid $main-color-one;
+        border: 1px solid var(--main-color-one);
         display: block;
         max-width: 100%;
         width: 100%;

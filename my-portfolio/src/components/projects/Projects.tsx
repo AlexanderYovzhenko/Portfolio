@@ -10,7 +10,7 @@ const Projects = () => {
   const [pageY, setPageY] = useState({ pageYTop: 0, pageYBottom: 0 })
 
   return (
-    <section className={styles.projects}>
+    <section className={styles.projects} id={'Projects'}>
       <div className={styles.projects__container}>
         <h2 className={styles.projects__title}>Projects</h2>
         <div className={styles.projects__content}>

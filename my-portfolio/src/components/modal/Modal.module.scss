@@ -22,9 +22,9 @@
     width: 70vw;
     padding: 30px 30px 40px;
     border-radius: 10px;
-    background-color: $base-color-light;
-    border: 1px solid $main-color-one_opacity;
-    box-shadow: 0 3px 7px $main-color-one_opacity;
+    background-color: var(--base-color-bg);
+    border: 1px solid var(--main-color-one)_opacity;
+    box-shadow: 0 3px 7px var(--main-color-one)_opacity;
     cursor: auto;
     position: relative;
     animation: modalContent 1s;
@@ -42,15 +42,15 @@
       margin-bottom: 50px;
       font-size: 2.5rem;
       letter-spacing: 5px;
-      color: $main-color-two;
-      text-shadow: 1px 1px 2px red, 0 0 0.2em blue;
+      color: var(--main-color-two);
+      text-shadow: 1px 1px 2px red, 0 0 0.2em var(--main-color-one);
     }
     .modal__content {
       display: flex;
       justify-content: center;
       align-items: center;
       font-size: 1.5rem;
-      text-shadow: 1px 1px 2px $main-color-two;
+      text-shadow: 1px 1px 2px var(--main-color-two);
 
       .modal__list {
         display: flex;
@@ -71,7 +71,7 @@
 
             .modal__item-name {
               font-size: 2rem;
-              color: $main-color-one;
+              color: var(--main-color-one);
               text-shadow: 1px 1px 1px $main-color-three;
             }
           }

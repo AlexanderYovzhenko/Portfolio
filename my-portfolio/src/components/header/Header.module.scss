@@ -28,7 +28,7 @@
         font-size: 2rem;
         letter-spacing: 5px;
         color: white;
-        text-shadow: 1px 1px 2px red, 0 0 0.2em blue;
+        text-shadow: 1px 1px 2px red, 0 0 0.2em var(--main-color-one);
       }
     }
 
@@ -41,7 +41,7 @@
         font-size: 1.5rem;
         letter-spacing: 2px;
         color: $main-color-three;
-        text-shadow: 1px 1px 2px red, 0 0 0.2em blue;
+        text-shadow: 1px 1px 2px red, 0 0 0.2em var(--main-color-one);
 
         .navigation__item { 
           .navigation__link {
@@ -68,14 +68,14 @@
 
             &:hover {
               color: white;
-              text-shadow: 1px 1px 2px red, 0 0 0.2em blue;
+              text-shadow: 1px 1px 2px red, 0 0 0.2em var(--main-color-one);
             }
 
             &-active {
               background-color: var(--main-color-two);
               border-radius: 10px 10px 0 0;
               color: white;
-              text-shadow: 1px 1px 2px red, 0 0 0.2em blue;
+              text-shadow: 1px 1px 2px red, 0 0 0.2em var(--main-color-one);
               position: relative;
               z-index: 1;
   

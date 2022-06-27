@@ -9,8 +9,8 @@
       margin-bottom: 70px;
       font-size: 3.5rem;
       letter-spacing: 5px;
-      color: $main-color-two;
-      text-shadow: 1px 1px 2px red, 0 0 0.2em blue;
+      color: var(--main-color-two);
+      text-shadow: 1px 1px 2px red, 0 0 0.2em var(--main-color-one);
 
       @media (max-width: 1200px) {
         margin-bottom: 50px;
@@ -47,7 +47,7 @@
 
               .project__title {
                 font-size: 2.5rem;
-                color: $main-color-one;
+                color: var(--main-color-one);
                 text-shadow: 1px 1px 2px $main-color-three;
               }
               .project__screenshot {
@@ -68,21 +68,21 @@
             }
             .project__gitHub {
               font-size: 2rem;
-              color: $main-color-one;
+              color: var(--main-color-one);
               text-shadow: 1px 1px 2px $main-color-three;
             }
             .project__description-button {
               font-size: 1.2rem;
-              color: $main-color-one;
+              color: var(--main-color-one);
               text-shadow: 1px 1px 2px $main-color-three;
-              border: 1px dashed $main-color-one;
+              border: 1px dashed var(--main-color-one);
               border-radius: 20px;
               padding: 2px 7px;
               background-color: inherit;
               cursor: pointer;
 
               &:hover {
-                border: 1px solid $main-color-one;
+                border: 1px solid var(--main-color-one);
               }
             }
           }

@@ -25,7 +25,7 @@ const Experience = () => {
   const inViews = [inViewOne, inViewTwo, inViewThree, inViewFour, inViewFive]
 
   return (
-    <section className={styles.experience}>
+    <section className={styles.experience} id={'Experience'}>
       <div className={styles.experience__container}>
         <h2 className={styles.experience__title}>Experience</h2>
         <div className={styles.experience__content}>

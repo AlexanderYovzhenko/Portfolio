@@ -6,7 +6,7 @@ const Skills = () => {
   const skillBlocks = Object.entries(skills)
 
   return (
-    <section className={styles.skills}>
+    <section className={styles.skills} id={'Skills'}>
       <div className={styles.skills__container}>
         <h2 className={styles.skills__title}>Skills</h2>
         <div className={styles.skills__content}>

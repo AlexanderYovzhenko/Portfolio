@@ -4,12 +4,12 @@ import photo from './assets/Photo_CV.png'
 
 const About = () => {
   return (
-    <section className={styles.about}>
+    <section className={styles.about} id={'About'}>
       <div className={styles.about__container}>
         <div className={styles.about__describe}>
           <h1 className={styles.about__title}>Aliaksandr Youzhanka</h1>
           <p className={styles.about__text}>
-            Hello! I am a web developer. I have good knowledge of JavaScript, TypeScript, NodeJS,
+            Hi! I am a web developer. I have good knowledge of JavaScript, TypeScript, NodeJS,
             React, HTML, CSS. In programming, I like many ways to solve a problem and find the best
             solution. Ready to solve the tasks assigned to the company, work in a team and find the
             best solution together. I continue to learn and develop in order to achieve high results

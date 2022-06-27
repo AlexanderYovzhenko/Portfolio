@@ -9,8 +9,8 @@
       margin-bottom: 70px;
       font-size: 3.5rem;
       letter-spacing: 5px;
-      color: $main-color-two;
-      text-shadow: 1px 1px 2px red, 0 0 0.2em blue;
+      color: var(--main-color-two);
+      text-shadow: 1px 1px 2px red, 0 0 0.2em var(--main-color-one);
 
       @media (max-width: 1200px) {
         margin-bottom: 50px;
@@ -34,17 +34,16 @@
         align-items: center;
         padding: 10px;
         border-radius: 10px;
-        // box-shadow: 1px 1px 5px $main-color-one_opacity;
         
         &:nth-child(2n) {
           .base__title {
-            color: $main-color-one;
+            color: var(--main-color-one);
           }
         }
   
         &:nth-child(3n) {
           .base__title {
-            color: $main-color-two;
+            color: var(--main-color-two);
           }
         }
   
@@ -57,7 +56,7 @@
   
         .base__list {
           font-size: 1.5rem;
-          text-shadow: 1px 1px 2px $main-color-two;
+          text-shadow: 1px 1px 2px var(--main-color-two);
   
           :not(:last-child) {
             margin-bottom: 20px;
@@ -75,13 +74,13 @@
             .item__progress {
               height: 10px;
               width: 200px;
-              box-shadow: 0 0 3px $main-color-one;
+              box-shadow: 0 0 3px var(--main-color-one);
               border-radius: 10px;
               margin-left: 20px;
   
               .item__progress-line {
                 height: 10px;
-                background-color: $main-color-one;
+                background-color: var(--main-color-one);
                 border-radius: 10px;
               }
             }

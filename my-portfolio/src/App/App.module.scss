@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
 
 .App {
-  font-family: 'Marck Script', cursive;
-  // background-color: rgb(216, 208, 208);
+  color: var(--base-color);
+  background-color: var( --base-color-bg);
 }
 
 ._container {

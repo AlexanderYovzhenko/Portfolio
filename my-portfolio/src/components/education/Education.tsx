@@ -10,7 +10,7 @@ import 'swiper/css/effect-coverflow'
 
 const Education = () => {
   return (
-    <section className={styles.education}>
+    <section className={styles.education} id={'Education'}>
       <div className={styles.education__container}>
         <h2 className={styles.education__title}>Education</h2>
         <h4 className={styles.education__subtitle}>Nov 2020 - Jun 2022</h4>
@@ -33,7 +33,6 @@ const Education = () => {
               slideShadows: true,
             }}
             spaceBetween={30}
-            // freeMode={true}
             loop={true}
             pagination={{
               clickable: true,
