@@ -1,9 +1,9 @@
-import FancyWeather from '../components/projects/assets/FancyWeather.jpg'
-import Vezha from '../components/projects/assets/Vezha.jpg'
-import ChatOnSocket from '../components/projects/assets/ChatOnSocket.jpg'
-import RaindropsGame from '../components/projects/assets/RaindropsGame.jpg'
-import FlexPanelGallery from '../components/projects/assets/FlexPanelGallery.jpg'
-import LayoutFurnitureForHome from '../components/projects/assets/LayoutFurnitureForHome.jpg'
+import FancyWeather from '../assets/FancyWeather.jpg'
+import Vezha from '../assets/Vezha.jpg'
+import ChatOnSocket from '../assets/ChatOnSocket.jpg'
+import RaindropsGame from '../assets/RaindropsGame.jpg'
+import FlexPanelGallery from '../assets/FlexPanelGallery.jpg'
+import LayoutFurnitureForHome from '../assets/LayoutFurnitureForHome.jpg'
 
 const projects = [
   {
@@ -12,12 +12,12 @@ const projects = [
     screenshot: Vezha,
     gitHub: 'https://github.com/GoldenManBel/project-management-app',
     description: {
-      Description: 'Web application with the weather forecast',
+      Description: 'DescriptionVezha',
       Languages: 'TypeScript, React, NodeJS',
       Technologies: 'Redux, Sass, Formik, NestJS, JWT, PostgreSQL, TypeORM',
       Instruments: 'Visual Studio Code, Chrome tools, Git, WebPack, ESLint, Prettier',
-      Position: 'Full-Stack developer',
-      Role: 'I completed the entire backend from start to finish, and I did the frontend as a team',
+      Position: 'FullStackDev',
+      Role: 'RoleVezha',
       GitHubFrontEnd: 'https://github.com/GoldenManBel/project-management-app',
       GitHubBackEnd: 'https://github.com/GoldenManBel/Vezha_BackEnd',
     },
@@ -28,12 +28,12 @@ const projects = [
     screenshot: FancyWeather,
     gitHub: 'https://github.com/GoldenManBel/Fancy-weather',
     description: {
-      Description: 'Web application with the weather forecast',
+      Description: 'DescriptionFW',
       Languages: 'JavaScript',
       Technologies: 'HTML, CSS, Sass',
       Instruments: 'Visual Studio Code, Chrome tools, Git, WebPack, ESLint',
-      Position: 'Front-End developer',
-      Role: 'I completed the whole project from start to finish',
+      Position: 'FrontEndDev',
+      Role: 'RoleFull',
     },
   },
   {
@@ -42,12 +42,12 @@ const projects = [
     screenshot: RaindropsGame,
     gitHub: 'https://github.com/GoldenManBel/rsschool-cv/tree/raindrops',
     description: {
-      Description: 'A game for developing math and counting skills',
+      Description: 'DescriptionRG',
       Languages: 'JavaScript',
       Technologies: 'HTML, CSS',
       Instruments: 'Visual Studio Code, Chrome tools, Git',
-      Position: 'Front-End developer',
-      Role: 'I completed the whole project from start to finish',
+      Position: 'FrontEndDev',
+      Role: 'RoleFull',
     },
   },
   {
@@ -56,12 +56,12 @@ const projects = [
     screenshot: ChatOnSocket,
     gitHub: 'https://github.com/GoldenManBel/Chat-on-socket',
     description: {
-      Description: 'Chat on socket',
+      Description: 'DescriptionCS',
       Languages: 'JavaScript(jQuery), NodeJS(Express, Socket.io)',
       Technologies: 'HTML, CSS',
       Instruments: 'Visual Studio Code, Chrome tools, Git',
-      Position: 'Full-Stack developer',
-      Role: 'I completed the whole project from start to finish',
+      Position: 'FullStackDev',
+      Role: 'RoleFull',
     },
   },
   {
@@ -70,12 +70,12 @@ const projects = [
     screenshot: FlexPanelGallery,
     gitHub: 'https://github.com/GoldenManBel/Flex-panel-gallery',
     description: {
-      Description: 'Gallery of flexible panels',
+      Description: 'DescriptionFPG',
       Languages: 'JavaScript',
       Technologies: 'HTML, CSS, Flex',
       Instruments: 'Visual Studio Code, Chrome tools, Git',
-      Position: 'Front-End developer',
-      Role: 'I completed the whole project from start to finish',
+      Position: 'FrontEndDev',
+      Role: 'RoleFull',
     },
   },
   {
@@ -84,12 +84,12 @@ const projects = [
     screenshot: LayoutFurnitureForHome,
     gitHub: 'https://github.com/GoldenManBel/Layout_Furniture_for_home',
     description: {
-      Description: 'Layout furniture for home',
+      Description: 'DescriptionFH',
       Languages: 'JavaScript',
       Technologies: 'Prepros, HTML, SCSS',
       Instruments: 'Visual Studio Code, Chrome tools, Git',
-      Position: 'Front-End developer',
-      Role: 'I completed the whole project from start to finish',
+      Position: 'FrontEndDev',
+      Role: 'RoleFull',
     },
   },
 ]

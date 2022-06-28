@@ -1,8 +1,8 @@
-import GitHub from '../components/footer/assets/GitHub.png'
-import Email from '../components/footer/assets/Email.png'
-import LinkedIn from '../components/footer/assets/LinkedIn.png'
-import Telegram from '../components/footer/assets/Telegram.png'
-import WhatsApp from '../components/footer/assets/WhatsApp.png'
+import GitHub from '../assets/GitHub.png'
+import Email from '../assets/Email.png'
+import LinkedIn from '../assets/LinkedIn.png'
+import Telegram from '../assets/Telegram.png'
+import WhatsApp from '../assets/WhatsApp.png'
 
 const contacts = [
   {

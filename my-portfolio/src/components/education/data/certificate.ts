@@ -1,6 +1,6 @@
-import FrontEnd from '../components/education/assets/Epam_Front-End.jpg'
-import NodeJS from '../components/education/assets/RSSchool_Node.jpg'
-import ReactJS from '../components/education/assets/RSSchool_React.jpg'
+import FrontEnd from '../assets/Epam_Front-End.jpg'
+import NodeJS from '../assets/RSSchool_Node.jpg'
+import ReactJS from '../assets/RSSchool_React.jpg'
 
 const certificate = [
   {
