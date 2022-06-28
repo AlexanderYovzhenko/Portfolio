@@ -5,14 +5,18 @@ import Select, { SingleValue } from 'react-select'
 import cn from 'classnames'
 import styles from './Header.module.scss'
 import { useAppDispatch, useAppSelector } from '../../redux-hooks/redux-hooks'
-import { changeFont, changeTheme } from '../../store/changesPage'
+import { changeFont, changeLanguage, changeTheme } from '../../store/changesPage'
 import fonts from './data/fonts'
 import navigationList from './data/navigationList'
 import ChangeTheme from './assets/ChangeTheme.png'
+import languages from './data/languages'
+import i18next from 'i18next'
+import { useTranslation } from 'react-i18next'
 
 const Header = () => {
   const dispatch = useAppDispatch()
-  const { theme, font } = useAppSelector((state) => state.changesPage)
+  const { theme, font, language } = useAppSelector((state) => state.changesPage)
+  const { t } = useTranslation()
 
   const changeThemeFn = () => {
     theme === 'dark' ? dispatch(changeTheme('light')) : dispatch(changeTheme('dark'))
@@ -23,13 +27,25 @@ const Header = () => {
   }, [theme])
 
   const changeFontFn = (
-    value: SingleValue<{
+    selectFont: SingleValue<{
       value: string
       label: string
     }>
   ) => {
-    if (value) {
-      dispatch(changeFont(value))
+    if (selectFont) {
+      dispatch(changeFont(selectFont))
+    }
+  }
+
+  const changeLanguageFn = (
+    selectLanguage: SingleValue<{
+      value: string
+      label: string
+    }>
+  ) => {
+    if (selectLanguage) {
+      i18next.changeLanguage(selectLanguage.value)
+      dispatch(changeLanguage(selectLanguage))
     }
   }
 
@@ -46,7 +62,12 @@ const Header = () => {
     <section className={cn(styles.header, { [styles.header__scroll]: scroll })}>
       <div className={styles.header__container}>
         <div className={styles.header__clock}>
-          <Clock className={styles.clock} format={'hh:mm:ssa'} ticking={true} />
+          <Clock
+            className={styles.clock}
+            locale={language.value}
+            format={t('ClockFormat')}
+            ticking={true}
+          />
         </div>
         <div className={`${styles.header__navigation} ${styles.navigation}`}>
           <ul className={styles.navigation__list}>
@@ -61,7 +82,7 @@ const Header = () => {
                     smooth={true}
                     offset={-50}
                   >
-                    {section}
+                    {t(section)}
                   </Link>
                 </li>
               )
@@ -78,10 +99,18 @@ const Header = () => {
               options={fonts}
               defaultValue={fonts[0]}
               value={font}
-              onChange={(value) => changeFontFn(value)}
+              onChange={(selectFont) => changeFontFn(selectFont)}
             />
           </div>
-          <div className={styles.changes__language}></div>
+          <div className={styles.changes__language}>
+            <Select
+              className={styles['changes__language-select']}
+              options={languages}
+              defaultValue={languages[0]}
+              value={language}
+              onChange={(selectLanguage) => changeLanguageFn(selectLanguage)}
+            />
+          </div>
         </div>
       </div>
     </section>

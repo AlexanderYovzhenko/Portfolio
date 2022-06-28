@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import projects from '../../data/projects'
+import { useTranslation } from 'react-i18next'
+import projects from './data/projects'
 import Modal from '../modal/Modal'
 import styles from './Projects.module.scss'
 
@@ -8,11 +9,12 @@ const Projects = () => {
   const [description, setDescription] = useState({})
   const [name, setName] = useState('')
   const [pageY, setPageY] = useState({ pageYTop: 0, pageYBottom: 0 })
+  const { t } = useTranslation()
 
   return (
     <section className={styles.projects} id={'Projects'}>
       <div className={styles.projects__container}>
-        <h2 className={styles.projects__title}>Projects</h2>
+        <h2 className={styles.projects__title}>{t('Projects')}</h2>
         <div className={styles.projects__content}>
           <ul className={styles.projects__list}>
             {projects.map(({ name, deploy, screenshot, gitHub, description }, index) => {
@@ -36,7 +38,7 @@ const Projects = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Git Hub Project
+                      {t('GitHubProject')}
                     </a>
                     <button
                       className={styles['project__description-button']}
@@ -52,7 +54,7 @@ const Projects = () => {
                         setOpenDescription(!openDescription)
                       }}
                     >
-                      Description
+                      {t('Description')}
                     </button>
                   </div>
                 </li>

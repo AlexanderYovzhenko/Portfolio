@@ -6,19 +6,30 @@ interface changesState {
     label: string
   }
   theme: string
+  language: {
+    value: string
+    label: string
+  }
 }
 
 const fontStorage = localStorage.getItem('font')
 const themeStorage = localStorage.getItem('theme')
+const languageStorage = localStorage.getItem('language')
 
 const initialState: changesState = {
+  theme: themeStorage || 'light',
   font: fontStorage
     ? JSON.parse(fontStorage)
     : {
         value: "'Marck Script', cursive",
         label: 'Marck',
       },
-  theme: themeStorage || 'light',
+  language: languageStorage
+    ? JSON.parse(languageStorage)
+    : {
+        value: 'en',
+        label: 'en',
+      },
 }
 
 export const changesPage = createSlice({
@@ -39,9 +50,19 @@ export const changesPage = createSlice({
       localStorage.setItem('theme', action.payload)
       state.theme = action.payload
     },
+    changeLanguage(
+      state,
+      action: PayloadAction<{
+        value: string
+        label: string
+      }>
+    ) {
+      localStorage.setItem('language', JSON.stringify(action.payload))
+      state.language = action.payload
+    },
   },
 })
 
-export const { changeFont, changeTheme } = changesPage.actions
+export const { changeFont, changeTheme, changeLanguage } = changesPage.actions
 
 export default changesPage.reducer

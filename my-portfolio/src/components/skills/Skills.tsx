@@ -1,19 +1,21 @@
 import React from 'react'
-import skills from '../../data/skills'
+import { useTranslation } from 'react-i18next'
+import skills from './data/skills'
 import styles from './Skills.module.scss'
 
 const Skills = () => {
   const skillBlocks = Object.entries(skills)
+  const { t } = useTranslation()
 
   return (
     <section className={styles.skills} id={'Skills'}>
       <div className={styles.skills__container}>
-        <h2 className={styles.skills__title}>Skills</h2>
+        <h2 className={styles.skills__title}>{t('Skills')}</h2>
         <div className={styles.skills__content}>
           {skillBlocks.map((skillBlock, index) => {
             return (
               <div className={`${styles.skills__base} ${styles.base}`} key={index}>
-                <h3 className={styles.base__title}>{skillBlock[0]}</h3>
+                <h3 className={styles.base__title}>{t(skillBlock[0])}</h3>
                 <ul className={styles.base__list}>
                   {Object.entries(skillBlock[1]).map((skill, index) => {
                     return (

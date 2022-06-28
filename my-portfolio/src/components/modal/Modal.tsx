@@ -1,4 +1,5 @@
 import React, { Dispatch, SetStateAction, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import styles from './Modal.module.scss'
 
 interface PropsModal {
@@ -17,6 +18,7 @@ interface PropsModal {
 
 const Modal = ({ setOpenDescription, description, name, pageY }: PropsModal) => {
   const [animationModal, setAnimationModal] = useState(false)
+  const { t } = useTranslation()
 
   return (
     <section
@@ -45,8 +47,8 @@ const Modal = ({ setOpenDescription, description, name, pageY }: PropsModal) => 
                 <li className={styles.modal__item} key={index}>
                   <a href={item[1]} target={'_blank'} rel="noreferrer">
                     <p className={styles['modal__item-text']}>
-                      <span className={styles['modal__item-name']}>GitHub: </span>
-                      Front-End
+                      <span className={styles['modal__item-name']}>{t('GitHub')}: </span>
+                      {t('FrontEnd')}
                     </p>
                   </a>
                 </li>
@@ -54,16 +56,16 @@ const Modal = ({ setOpenDescription, description, name, pageY }: PropsModal) => 
                 <li className={styles.modal__item} key={index}>
                   <a href={item[1]} target={'_blank'} rel="noreferrer">
                     <p className={styles['modal__item-text']}>
-                      <span className={styles['modal__item-name']}>GitHub: </span>
-                      Back-End
+                      <span className={styles['modal__item-name']}>{t('GitHub')}: </span>
+                      {t('BackEnd')}
                     </p>
                   </a>
                 </li>
               ) : (
                 <li className={styles.modal__item} key={index}>
                   <p className={styles['modal__item-text']}>
-                    <span className={styles['modal__item-name']}>{item[0]}: </span>
-                    {item[1]}
+                    <span className={styles['modal__item-name']}>{t(item[0])}: </span>
+                    {t(item[1])}
                   </p>
                 </li>
               )

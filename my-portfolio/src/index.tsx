@@ -4,6 +4,7 @@ import './index.scss'
 import App from './App/App'
 import { Provider } from 'react-redux'
 import { store } from './store/store'
+import './utilities/i18next'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 
