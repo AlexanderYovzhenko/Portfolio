@@ -1,5 +1,3 @@
-@import "../../styles/variables.module.scss";
-
 .about {
   padding: 20% 20px 10%;
 
@@ -12,8 +10,8 @@
       .about__title {
         font-size: 3.5rem;
         letter-spacing: 5px;
-        color: $base-color-light;
-        text-shadow: 1px 1px 2px red, 0 0 0.2em var(--main-color-one);
+        color: var(--title);
+        text-shadow: 1px 1px 2px var(--main-color-five), 0 0 5px var(--main-color-six);
       }
       .about__text {
         font-size: 1.5rem;
@@ -30,7 +28,10 @@
         transition: all .5s;
       }
       .about__download-CV:hover {
-        background-color: var(--main-color-two)_hover;
+        background-color: var(--main-color-two_hover);
+      }
+      .about__download-CV:active {
+        transform: scale(.95);
       }
       .about__download-CV:focus {
         outline: none;

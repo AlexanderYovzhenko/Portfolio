@@ -1,5 +1,3 @@
-@import "../../styles/variables.module.scss";
-
 .projects {
   padding: 10% 20px;
 
@@ -10,7 +8,7 @@
       font-size: 3.5rem;
       letter-spacing: 5px;
       color: var(--main-color-two);
-      text-shadow: 1px 1px 2px red, 0 0 0.2em var(--main-color-one);
+      text-shadow: 1px 1px 2px var(--main-color-five), 0 0 0.2em var(--main-color-one);
 
       @media (max-width: 1200px) {
         margin-bottom: 50px;
@@ -48,7 +46,7 @@
               .project__title {
                 font-size: 2.5rem;
                 color: var(--main-color-one);
-                text-shadow: 1px 1px 2px $main-color-three;
+                text-shadow: 1px 1px 2px var(--main-color-three);
               }
               .project__screenshot {
                 border-radius: 10px;
@@ -69,12 +67,12 @@
             .project__gitHub {
               font-size: 2rem;
               color: var(--main-color-one);
-              text-shadow: 1px 1px 2px $main-color-three;
+              text-shadow: 1px 1px 2px var(--main-color-three);
             }
             .project__description-button {
               font-size: 1.2rem;
               color: var(--main-color-one);
-              text-shadow: 1px 1px 2px $main-color-three;
+              text-shadow: 1px 1px 2px var(--main-color-three);
               border: 1px dashed var(--main-color-one);
               border-radius: 20px;
               padding: 2px 7px;
@@ -83,6 +81,10 @@
 
               &:hover {
                 border: 1px solid var(--main-color-one);
+                background-color: var(--main-color-two_opacity);
+              }
+              &:active {
+                transform: scale(.95);
               }
             }
           }
