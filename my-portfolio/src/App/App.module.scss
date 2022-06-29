@@ -4,7 +4,7 @@
 
 .App {
   color: var(--base-color);
-  background-color: var( --base-color-bg);
+  background: linear-gradient(90deg, var(--base-color-bg) 0%, var(--main-color-seven) 100%);
 }
 
 ._container {
