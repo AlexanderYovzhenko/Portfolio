@@ -93,7 +93,7 @@
               height: 100%;
               background-color: var(--main-color-two);
               border-radius: 10px 10px 100% 100%;
-              box-shadow: 0px 15px 10px -15px var(--main-color-one);
+              box-shadow: 0px 15px 10px -10px var(--main-color-one);
               z-index: -1;
               animation: linkCheckClose 1s;
             }
@@ -120,7 +120,7 @@
                 height: 350%;
                 background-color: inherit;
                 border-radius: 10px 10px 100% 100%;
-                box-shadow: 0px 15px 10px -15px var(--main-color-one);
+                box-shadow: 0px 15px 10px -10px var(--main-color-one);
                 z-index: -1;
                 animation: linkCheck 1s;
               }

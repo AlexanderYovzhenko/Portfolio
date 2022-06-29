@@ -42,7 +42,7 @@ const Experience = () => {
                   ref={refs[index]}
                   key={index}
                 >
-                  <h3 className={styles.item__skill}>{experienceItem[0]}</h3>
+                  <h3 className={styles.item__skill}>{t(experienceItem[0])}</h3>
                   <div className={styles.item__body}>
                     <Moment locale={language.value} className={styles.item__title} fromNow ago>
                       {experienceItem[1]}

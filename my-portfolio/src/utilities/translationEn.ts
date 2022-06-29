@@ -20,6 +20,7 @@ const translationEn = {
   //Education
   dateEducation: 'Nov 2020 - Jun 2022',
   //Experience
+  PetProjects: 'PetProjects',
   //Projects
   GitHubProject: 'Git Hub Project',
   Description: 'Description',
