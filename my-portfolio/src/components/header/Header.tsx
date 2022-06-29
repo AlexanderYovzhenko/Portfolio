@@ -58,8 +58,14 @@ const Header = () => {
     window.addEventListener('scroll', scrollHandler)
   }, [])
 
+  const [openBurgerMenu, setOpenBurgerMenu] = useState(false)
+
+  const targetBurgerMenu = () => {
+    setOpenBurgerMenu(!openBurgerMenu)
+  }
+
   return (
-    <section className={cn(styles.header, { [styles.header__scroll]: scroll })}>
+    <header className={cn(styles.header, { [styles.header__scroll]: scroll })}>
       <div className={styles.header__container}>
         <div className={styles.header__clock}>
           <Clock
@@ -76,7 +82,7 @@ const Header = () => {
                 <li className={styles.navigation__item} key={index}>
                   <Link
                     className={styles.navigation__link}
-                    activeClass={styles['navigation__link-active']}
+                    activeClass={styles['navigation__link_active']}
                     to={section}
                     spy={true}
                     smooth={true}
@@ -112,8 +118,51 @@ const Header = () => {
             />
           </div>
         </div>
+        <div
+          className={cn(styles['header__burger-btn'], styles['burger-btn'], {
+            [styles['header__burger-btn_open']]: openBurgerMenu,
+          })}
+          onClick={targetBurgerMenu}
+        >
+          <div className={styles.burger__item}></div>
+        </div>
+        <div
+          className={cn(styles['header__burger-modal'], styles['burger-modal'], {
+            [styles['hidden']]: !openBurgerMenu,
+          })}
+          onClick={targetBurgerMenu}
+        >
+          <div
+            className={cn(styles['burger-menu'], {
+              [styles['burger-menu_hidden']]: !openBurgerMenu,
+            })}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className={`${styles.header__navigation_burger} ${styles.navigation}`}>
+              <ul className={styles.navigation__list_burger}>
+                {navigationList.map((section, index) => {
+                  return (
+                    <li className={styles.navigation__item_burger} key={index}>
+                      <Link
+                        className={styles.navigation__link_burger}
+                        activeClass={styles['navigation__link_burger_active']}
+                        to={section}
+                        spy={true}
+                        smooth={true}
+                        offset={-50}
+                        onClick={targetBurgerMenu}
+                      >
+                        {t(section)}
+                      </Link>
+                    </li>
+                  )
+                })}
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
+    </header>
   )
 }
 
