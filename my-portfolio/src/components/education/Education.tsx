@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Education.module.scss'
 import certificate from './data/certificate'
-import { FreeMode, Pagination, EffectCoverflow } from 'swiper'
+import { Pagination, EffectCoverflow } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/free-mode'
@@ -40,7 +40,7 @@ const Education = () => {
             pagination={{
               clickable: true,
             }}
-            modules={[EffectCoverflow, Pagination, FreeMode]}
+            modules={[EffectCoverflow, Pagination]}
             className={`${styles.swiper} ${styles.mySwiper}`}
           >
             {certificate.map(({ title, url }, index) => {
