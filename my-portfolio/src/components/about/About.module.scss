@@ -59,17 +59,11 @@
       :not(:last-child) {
         margin-bottom: 50px;
       }
-
-      // @media (max-width: 450px) {
-      //   .about__title {
-      //     font-size: 2.7rem;
-      //   }
-      // }
     }
 
     .about__image {  
       max-width: 70%;
-      margin-right: 20%;
+      margin-right: 21%;
       position: relative;
       z-index: 1;
 
