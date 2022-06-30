@@ -13,6 +13,13 @@ const translationEn = {
   about_Me:
     'Hi! I am a web developer. I have good knowledge of JavaScript, TypeScript, NodeJS, React, HTML, CSS. In programming, I like many ways to solve a problem and find the best solution. Ready to solve the tasks assigned to the company, work in a team and find the best solution together. I continue to learn and develop in order to achieve high results in programming. I will be glad to join your team.',
   download: 'Download CV',
+  p: 'p',
+  o: 'o',
+  r: 'r',
+  t: 't',
+  f: 'f',
+  l: 'l',
+  i: 'i',
   //Sills
   Base: 'Base',
   FrontEnd: 'FrontEnd',
