@@ -14,7 +14,7 @@ interface changesState {
 
 const fontStorage = localStorage.getItem('font')
 const themeStorage = localStorage.getItem('theme')
-const languageStorage = localStorage.getItem('language')
+// const languageStorage = localStorage.getItem('language')
 
 const initialState: changesState = {
   theme: themeStorage || 'light',
@@ -24,12 +24,10 @@ const initialState: changesState = {
         value: "'Rubik Moonrocks', cursive",
         label: 'Rubik',
       },
-  language: languageStorage
-    ? JSON.parse(languageStorage)
-    : {
-        value: 'en',
-        label: 'en',
-      },
+  language: {
+    value: 'en',
+    label: 'en',
+  },
 }
 
 export const changesPage = createSlice({
