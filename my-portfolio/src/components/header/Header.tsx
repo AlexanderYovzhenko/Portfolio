@@ -44,8 +44,8 @@ const Header = () => {
     }>
   ) => {
     if (selectLanguage) {
-      i18next.changeLanguage(selectLanguage.value)
       dispatch(changeLanguage(selectLanguage))
+      i18next.changeLanguage(selectLanguage.value)
     }
   }
 
