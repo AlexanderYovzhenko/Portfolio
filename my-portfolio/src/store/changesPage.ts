@@ -21,8 +21,8 @@ const initialState: changesState = {
   font: fontStorage
     ? JSON.parse(fontStorage)
     : {
-        value: "'Marck Script', cursive",
-        label: 'Marck',
+        value: "'Rubik Moonrocks', cursive",
+        label: 'Rubik',
       },
   language: languageStorage
     ? JSON.parse(languageStorage)
