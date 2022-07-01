@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from './Education.module.scss'
 import certificate from './data/certificate'
 import { Pagination, EffectCoverflow } from 'swiper'
@@ -10,7 +10,14 @@ import 'swiper/css/effect-coverflow'
 import { useTranslation } from 'react-i18next'
 
 const Education = () => {
+  const [slidesPerViewCount, setSlidesPerViewCount] = useState(2)
   const { t } = useTranslation()
+
+  useEffect(() => {
+    if (window.innerWidth <= 900) {
+      setSlidesPerViewCount(1)
+    }
+  }, [])
 
   return (
     <section className={styles.education} id={'Education'}>
@@ -27,7 +34,7 @@ const Education = () => {
             effect={'coverflow'}
             grabCursor={true}
             centeredSlides={true}
-            slidesPerView={2}
+            slidesPerView={slidesPerViewCount}
             coverflowEffect={{
               rotate: 50,
               stretch: 0,
