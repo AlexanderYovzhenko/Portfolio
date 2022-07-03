@@ -113,17 +113,7 @@ const Header = () => {
           >
             <img src={ChangeTheme} alt="icon change theme" />
           </div>
-          <div
-            className={styles.changes__font}
-            data-tip={t('Font')}
-            data-for="Font"
-            data-type={theme}
-            onMouseEnter={() => showTooltip(true)}
-            onMouseLeave={() => {
-              showTooltip(false)
-              setTimeout(() => showTooltip(true), 0)
-            }}
-          >
+          <div className={styles.changes__font}>
             <Select
               className={styles['changes__font-select']}
               options={fonts}
@@ -132,17 +122,7 @@ const Header = () => {
               onChange={(selectFont) => changeFontFn(selectFont)}
             />
           </div>
-          <div
-            className={styles.changes__language}
-            data-tip={t('Language')}
-            data-for="Language"
-            data-type={theme}
-            onMouseEnter={() => showTooltip(true)}
-            onMouseLeave={() => {
-              showTooltip(false)
-              setTimeout(() => showTooltip(true), 0)
-            }}
-          >
+          <div className={styles.changes__language}>
             <Select
               className={styles['changes__language-select']}
               options={languages}
@@ -153,12 +133,6 @@ const Header = () => {
           </div>
           {tooltip && window.innerWidth > 900 && (
             <ReactTooltip id={'Theme'} place="top" effect="solid" />
-          )}
-          {tooltip && window.innerWidth > 900 && (
-            <ReactTooltip id={'Font'} place="top" effect="float" />
-          )}
-          {tooltip && window.innerWidth > 900 && (
-            <ReactTooltip id={'Language'} place="top" effect="float" />
           )}
         </div>
         <div
