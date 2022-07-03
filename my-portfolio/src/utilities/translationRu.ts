@@ -20,6 +20,9 @@ const translationRu = {
   f: 'ф',
   l: 'л',
   i: 'и',
+  Theme: 'Сменить Тему',
+  Font: 'Сменить Шрифт',
+  Language: 'Сменить Язык',
   //Sills
   Base: 'Базовые',
   FrontEnd: 'Фронтенд',

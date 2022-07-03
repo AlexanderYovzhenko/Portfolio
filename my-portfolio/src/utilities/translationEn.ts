@@ -20,6 +20,9 @@ const translationEn = {
   f: 'f',
   l: 'l',
   i: 'i',
+  Theme: 'Change Theme',
+  Font: 'Change Font',
+  Language: 'Change Language',
   //Sills
   Base: 'Base',
   FrontEnd: 'FrontEnd',

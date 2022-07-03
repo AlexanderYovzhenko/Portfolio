@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { memo, useEffect, useState } from 'react'
 import { Link } from 'react-scroll'
 import Clock from 'react-live-clock'
 import Select, { SingleValue } from 'react-select'
@@ -12,6 +12,7 @@ import ChangeTheme from './assets/ChangeTheme.png'
 import languages from './data/languages'
 import i18next from 'i18next'
 import { useTranslation } from 'react-i18next'
+import ReactTooltip from 'react-tooltip'
 
 const Header = () => {
   const dispatch = useAppDispatch()
@@ -64,6 +65,8 @@ const Header = () => {
     setOpenBurgerMenu(!openBurgerMenu)
   }
 
+  const [tooltip, showTooltip] = useState(true)
+
   return (
     <header className={cn(styles.header, { [styles.header__scroll]: scroll })}>
       <div className={styles.header__container}>
@@ -96,10 +99,31 @@ const Header = () => {
           </ul>
         </div>
         <div className={`${styles.header__changes} ${styles.changes}`}>
-          <div className={styles.changes__theme} onClick={changeThemeFn}>
+          <div
+            className={styles.changes__theme}
+            onClick={changeThemeFn}
+            data-tip={t('Theme')}
+            data-for="Theme"
+            data-type={theme}
+            onMouseEnter={() => showTooltip(true)}
+            onMouseLeave={() => {
+              showTooltip(false)
+              setTimeout(() => showTooltip(true), 0)
+            }}
+          >
             <img src={ChangeTheme} alt="icon change theme" />
           </div>
-          <div className={styles.changes__font}>
+          <div
+            className={styles.changes__font}
+            data-tip={t('Font')}
+            data-for="Font"
+            data-type={theme}
+            onMouseEnter={() => showTooltip(true)}
+            onMouseLeave={() => {
+              showTooltip(false)
+              setTimeout(() => showTooltip(true), 0)
+            }}
+          >
             <Select
               className={styles['changes__font-select']}
               options={fonts}
@@ -108,7 +132,17 @@ const Header = () => {
               onChange={(selectFont) => changeFontFn(selectFont)}
             />
           </div>
-          <div className={styles.changes__language}>
+          <div
+            className={styles.changes__language}
+            data-tip={t('Language')}
+            data-for="Language"
+            data-type={theme}
+            onMouseEnter={() => showTooltip(true)}
+            onMouseLeave={() => {
+              showTooltip(false)
+              setTimeout(() => showTooltip(true), 0)
+            }}
+          >
             <Select
               className={styles['changes__language-select']}
               options={languages}
@@ -117,6 +151,15 @@ const Header = () => {
               onChange={(selectLanguage) => changeLanguageFn(selectLanguage)}
             />
           </div>
+          {tooltip && window.innerWidth > 900 && (
+            <ReactTooltip id={'Theme'} place="top" effect="solid" />
+          )}
+          {tooltip && window.innerWidth > 900 && (
+            <ReactTooltip id={'Font'} place="top" effect="float" />
+          )}
+          {tooltip && window.innerWidth > 900 && (
+            <ReactTooltip id={'Language'} place="top" effect="float" />
+          )}
         </div>
         <div
           className={cn(styles['header__burger-btn'], styles['burger-btn'], {
@@ -166,4 +209,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default memo(Header)
