@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.5addf7e0.css",
-    "main.js": "/MyPortfolio/static/js/main.ac0bed7f.js",
+    "main.js": "/MyPortfolio/static/js/main.54dfcef4.js",
     "static/media/Photo_CV.png": "/MyPortfolio/static/media/Photo_CV.592848a6b923efcae6a9.png",
     "static/media/Biking.jpg": "/MyPortfolio/static/media/Biking.d784871fb78a3bdedadd.jpg",
     "static/media/Fishing.jpg": "/MyPortfolio/static/media/Fishing.4c6b6af663e943a57ea1.jpg",
     "static/media/FlexPanelGallery.jpg": "/MyPortfolio/static/media/FlexPanelGallery.147bfabffdf0675f8d10.jpg",
-    "static/media/Web_Developer_Alexander_Yovzhenko_CV.pdf": "/MyPortfolio/static/media/Web_Developer_Alexander_Yovzhenko_CV.d39d7f217f081ef0272d.pdf",
+    "static/media/Web_Developer_Alexander_Yovzhenko_CV.pdf": "/MyPortfolio/static/media/Web_Developer_Alexander_Yovzhenko_CV.909d7ddb2821987be1c9.pdf",
     "static/media/FancyWeather.jpg": "/MyPortfolio/static/media/FancyWeather.a118aedf2693c0188821.jpg",
     "static/media/LayoutFurnitureForHome.jpg": "/MyPortfolio/static/media/LayoutFurnitureForHome.0f21b0b500e88507e8a8.jpg",
     "static/media/Vezha.jpg": "/MyPortfolio/static/media/Vezha.9508e4c5fbe1b8fb2eb4.jpg",
@@ -18,10 +18,10 @@
     "static/media/VideoGames.jpg": "/MyPortfolio/static/media/VideoGames.2a1d8147e468fa2ed11a.jpg",
     "index.html": "/MyPortfolio/index.html",
     "main.5addf7e0.css.map": "/MyPortfolio/static/css/main.5addf7e0.css.map",
-    "main.ac0bed7f.js.map": "/MyPortfolio/static/js/main.ac0bed7f.js.map"
+    "main.54dfcef4.js.map": "/MyPortfolio/static/js/main.54dfcef4.js.map"
   },
   "entrypoints": [
     "static/css/main.5addf7e0.css",
-    "static/js/main.ac0bed7f.js"
+    "static/js/main.54dfcef4.js"
   ]
 }
