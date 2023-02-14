@@ -1,4 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
+import fonts from '../components/header/data/fonts'
+import languages from '../components/header/data/languages'
 
 interface changesState {
   font: {
@@ -14,21 +16,22 @@ interface changesState {
 
 const fontStorage = localStorage.getItem('font')
 const themeStorage = localStorage.getItem('theme')
+const themeUser =
+  window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
 const langStorage = localStorage.getItem('lang')
+const langUser = navigator.language.includes('ru') ? languages[1] : languages[0]
 
 const initialState: changesState = {
-  theme: themeStorage || 'light',
+  theme: themeStorage || themeUser,
   font: fontStorage
     ? JSON.parse(fontStorage)
     : {
-        value: "'Rubik Moonrocks', cursive",
-        label: 'Rubik',
+        ...fonts[0],
       },
   language: langStorage
     ? JSON.parse(langStorage)
     : {
-        value: 'en',
-        label: 'en',
+        ...langUser,
       },
 }
 

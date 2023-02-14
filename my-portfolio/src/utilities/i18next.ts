@@ -4,12 +4,14 @@ import LanguageDetector from 'i18next-browser-languagedetector'
 import translationRu from './translationRu'
 import translationEn from './translationEn'
 
+const langUser = navigator.language.includes('ru') ? 'ru' : 'en'
+
 i18n
   .use(initReactI18next)
   .use(LanguageDetector)
   .init({
     supportedLngs: ['en', 'ru'],
-    fallbackLng: 'en',
+    fallbackLng: langUser,
     detection: {
       order: ['localStorage'],
     },
