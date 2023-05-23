@@ -2,7 +2,7 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 import styles from './About.module.scss'
 import photo from './assets/Photo_CV.png'
-import CV from './assets/Web_Developer_Alexander_Yovzhenko_CV.pdf'
+import CV from './assets/Software_Engineer_Aliaksandr_Youzhanka_CV.pdf'
 
 const About = () => {
   const { t } = useTranslation()
