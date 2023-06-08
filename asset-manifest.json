@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.632c34ae.css",
-    "main.js": "/MyPortfolio/static/js/main.04ea27db.js",
+    "main.css": "/MyPortfolio/static/css/main.ff99674c.css",
+    "main.js": "/MyPortfolio/static/js/main.457d31fa.js",
     "static/media/Photo_CV.png": "/MyPortfolio/static/media/Photo_CV.592848a6b923efcae6a9.png",
     "static/media/Biking.jpg": "/MyPortfolio/static/media/Biking.d784871fb78a3bdedadd.jpg",
     "static/media/Fishing.jpg": "/MyPortfolio/static/media/Fishing.4c6b6af663e943a57ea1.jpg",
@@ -13,15 +13,15 @@
     "static/media/RaindropsGame.jpg": "/MyPortfolio/static/media/RaindropsGame.fa5b58fa5b7ef6baf0c2.jpg",
     "static/media/RSSchool_React.jpg": "/MyPortfolio/static/media/RSSchool_React.3cbec2638e704851ce82.jpg",
     "static/media/RSSchool_Node.jpg": "/MyPortfolio/static/media/RSSchool_Node.3f1329f50fed04837b0c.jpg",
+    "static/media/ChatOnSocket.jpg": "/MyPortfolio/static/media/ChatOnSocket.f2b120b63ca7c5a79b1b.jpg",
     "static/media/Epam_Front-End.jpg": "/MyPortfolio/static/media/Epam_Front-End.7be66bec93d926d0dafb.jpg",
-    "static/media/ChatOnSocket.jpg": "/MyPortfolio/static/media/ChatOnSocket.66ff0662fc193859dfa7.jpg",
     "static/media/VideoGames.jpg": "/MyPortfolio/static/media/VideoGames.2a1d8147e468fa2ed11a.jpg",
     "index.html": "/MyPortfolio/index.html",
-    "main.632c34ae.css.map": "/MyPortfolio/static/css/main.632c34ae.css.map",
-    "main.04ea27db.js.map": "/MyPortfolio/static/js/main.04ea27db.js.map"
+    "main.ff99674c.css.map": "/MyPortfolio/static/css/main.ff99674c.css.map",
+    "main.457d31fa.js.map": "/MyPortfolio/static/js/main.457d31fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.632c34ae.css",
-    "static/js/main.04ea27db.js"
+    "static/css/main.ff99674c.css",
+    "static/js/main.457d31fa.js"
   ]
 }
