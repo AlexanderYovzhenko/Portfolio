@@ -52,13 +52,13 @@ const projects = [
   },
   {
     name: 'Chat on Socket',
-    deploy: 'http://chat---socket.herokuapp.com/',
+    deploy: 'https://chat-client-fawn.vercel.app',
     screenshot: ChatOnSocket,
-    gitHub: 'https://github.com/GoldenManBel/Chat-on-socket',
+    gitHub: 'https://github.com/GoldenManBel/Chat',
     description: {
       Description: 'DescriptionCS',
-      Languages: 'JavaScript(jQuery), NodeJS(Express, Socket.io)',
-      Technologies: 'HTML, CSS',
+      Languages: 'TypeScript, NodeJS, Fastify, React, WebSocket',
+      Technologies: 'WebSocket',
       Instruments: 'Visual Studio Code, Chrome tools, Git',
       Position: 'FullStackDev',
       Role: 'RoleFull',
