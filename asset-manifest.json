@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.ff99674c.css",
-    "main.js": "/MyPortfolio/static/js/main.457d31fa.js",
-    "static/media/Photo_CV.png": "/MyPortfolio/static/media/Photo_CV.592848a6b923efcae6a9.png",
-    "static/media/Biking.jpg": "/MyPortfolio/static/media/Biking.d784871fb78a3bdedadd.jpg",
-    "static/media/Fishing.jpg": "/MyPortfolio/static/media/Fishing.4c6b6af663e943a57ea1.jpg",
-    "static/media/FlexPanelGallery.jpg": "/MyPortfolio/static/media/FlexPanelGallery.147bfabffdf0675f8d10.jpg",
-    "static/media/FancyWeather.jpg": "/MyPortfolio/static/media/FancyWeather.a118aedf2693c0188821.jpg",
-    "static/media/LayoutFurnitureForHome.jpg": "/MyPortfolio/static/media/LayoutFurnitureForHome.0f21b0b500e88507e8a8.jpg",
-    "static/media/Vezha.jpg": "/MyPortfolio/static/media/Vezha.9508e4c5fbe1b8fb2eb4.jpg",
-    "static/media/Software_Engineer_Aliaksandr_Youzhanka_CV.pdf": "/MyPortfolio/static/media/Software_Engineer_Aliaksandr_Youzhanka_CV.3464907d19ef6e889b88.pdf",
-    "static/media/RaindropsGame.jpg": "/MyPortfolio/static/media/RaindropsGame.fa5b58fa5b7ef6baf0c2.jpg",
-    "static/media/RSSchool_React.jpg": "/MyPortfolio/static/media/RSSchool_React.3cbec2638e704851ce82.jpg",
-    "static/media/RSSchool_Node.jpg": "/MyPortfolio/static/media/RSSchool_Node.3f1329f50fed04837b0c.jpg",
-    "static/media/ChatOnSocket.jpg": "/MyPortfolio/static/media/ChatOnSocket.f2b120b63ca7c5a79b1b.jpg",
-    "static/media/Epam_Front-End.jpg": "/MyPortfolio/static/media/Epam_Front-End.7be66bec93d926d0dafb.jpg",
-    "static/media/VideoGames.jpg": "/MyPortfolio/static/media/VideoGames.2a1d8147e468fa2ed11a.jpg",
-    "index.html": "/MyPortfolio/index.html",
-    "main.ff99674c.css.map": "/MyPortfolio/static/css/main.ff99674c.css.map",
-    "main.457d31fa.js.map": "/MyPortfolio/static/js/main.457d31fa.js.map"
+    "main.css": "/Portfolio/static/css/main.4d295892.css",
+    "main.js": "/Portfolio/static/js/main.704592c1.js",
+    "static/media/Photo_CV.png": "/Portfolio/static/media/Photo_CV.592848a6b923efcae6a9.png",
+    "static/media/Biking.jpg": "/Portfolio/static/media/Biking.d784871fb78a3bdedadd.jpg",
+    "static/media/Fishing.jpg": "/Portfolio/static/media/Fishing.4c6b6af663e943a57ea1.jpg",
+    "static/media/FancyWeather.jpg": "/Portfolio/static/media/FancyWeather.a118aedf2693c0188821.jpg",
+    "static/media/LayoutFurnitureForHome.jpg": "/Portfolio/static/media/LayoutFurnitureForHome.0f21b0b500e88507e8a8.jpg",
+    "static/media/Vezha.jpg": "/Portfolio/static/media/Vezha.9508e4c5fbe1b8fb2eb4.jpg",
+    "static/media/Software_Engineer_Aliaksandr_Youzhanka_CV.pdf": "/Portfolio/static/media/Software_Engineer_Aliaksandr_Youzhanka_CV.3464907d19ef6e889b88.pdf",
+    "static/media/RaindropsGame.jpg": "/Portfolio/static/media/RaindropsGame.fa5b58fa5b7ef6baf0c2.jpg",
+    "static/media/RSSchool_React.jpg": "/Portfolio/static/media/RSSchool_React.3cbec2638e704851ce82.jpg",
+    "static/media/RSSchool_Node.jpg": "/Portfolio/static/media/RSSchool_Node.3f1329f50fed04837b0c.jpg",
+    "static/media/ChatOnSocket.jpg": "/Portfolio/static/media/ChatOnSocket.f2b120b63ca7c5a79b1b.jpg",
+    "static/media/Epam_Front-End.jpg": "/Portfolio/static/media/Epam_Front-End.7be66bec93d926d0dafb.jpg",
+    "static/media/VideoGames.jpg": "/Portfolio/static/media/VideoGames.2a1d8147e468fa2ed11a.jpg",
+    "static/media/CurrencyConverter.jpg": "/Portfolio/static/media/CurrencyConverter.eee81a402fb470af2b6b.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.4d295892.css.map": "/Portfolio/static/css/main.4d295892.css.map",
+    "main.704592c1.js.map": "/Portfolio/static/js/main.704592c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff99674c.css",
-    "static/js/main.457d31fa.js"
+    "static/css/main.4d295892.css",
+    "static/js/main.704592c1.js"
   ]
 }
