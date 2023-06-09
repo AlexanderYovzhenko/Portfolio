@@ -53,7 +53,7 @@ const translationRu = {
   DescriptionFW: 'Веб-приложение с прогнозом погоды',
   DescriptionRG: 'Игра для развития математических способностей и навыков счета',
   DescriptionCS: 'Чат на сокете онлайн',
-  DescriptionFPG: 'Галерея гибких панелей',
+  DescriptionCC: 'Ковертер валют',
   DescriptionFH: 'Верстка сайта мебель для дома',
   //Hobby
   HobbySlogan: 'Добавьте удовольствия в свою жизнь!',

@@ -2,7 +2,7 @@ import FancyWeather from '../assets/FancyWeather.jpg'
 import Vezha from '../assets/Vezha.jpg'
 import ChatOnSocket from '../assets/ChatOnSocket.jpg'
 import RaindropsGame from '../assets/RaindropsGame.jpg'
-import FlexPanelGallery from '../assets/FlexPanelGallery.jpg'
+import CurrencyConverter from '../assets/CurrencyConverter.jpg'
 import LayoutFurnitureForHome from '../assets/LayoutFurnitureForHome.jpg'
 
 const projects = [
@@ -65,14 +65,14 @@ const projects = [
     },
   },
   {
-    name: 'Flex Panel Gallery',
-    deploy: 'https://goldenmanbel.github.io/Flex-panel-gallery/',
-    screenshot: FlexPanelGallery,
-    gitHub: 'https://github.com/GoldenManBel/Flex-panel-gallery',
+    name: 'Currency Converter',
+    deploy: 'https://goldenmanbel.github.io/Currency_Converter',
+    screenshot: CurrencyConverter,
+    gitHub: 'https://github.com/GoldenManBel/Currency_Converter',
     description: {
-      Description: 'DescriptionFPG',
-      Languages: 'JavaScript',
-      Technologies: 'HTML, CSS, Flex',
+      Description: 'DescriptionCC',
+      Languages: 'JavaScript, React, Redux, RTK, React-Router, Axios',
+      Technologies: 'HTML, CSS, SCSS',
       Instruments: 'Visual Studio Code, Chrome tools, Git',
       Position: 'FrontEndDev',
       Role: 'RoleFull',

@@ -67,7 +67,7 @@ const translationEn = {
   DescriptionFW: 'Web application with the weather forecast',
   DescriptionRG: 'A game for developing math and counting skills',
   DescriptionCS: 'Chat on socket online',
-  DescriptionFPG: 'Gallery of flexible panels',
+  DescriptionCC: 'Currency converter',
   DescriptionFH: 'Home furniture layout',
   //Hobby
   HobbySlogan: 'Add fun to your life!',
