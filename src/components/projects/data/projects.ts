@@ -4,6 +4,7 @@ import ChatOnSocket from '../assets/ChatOnSocket.jpg'
 import RaindropsGame from '../assets/RaindropsGame.jpg'
 import CurrencyConverter from '../assets/CurrencyConverter.jpg'
 import LayoutFurnitureForHome from '../assets/LayoutFurnitureForHome.jpg'
+import API_BackEnd from '../assets/API_BackEnd.jpg'
 
 const projects = [
   {
@@ -89,6 +90,49 @@ const projects = [
       Technologies: 'Prepros, HTML, SCSS',
       Instruments: 'Visual Studio Code, Chrome tools, Git',
       Position: 'FrontEndDev',
+      Role: 'RoleFull',
+    },
+  },
+  {
+    name: 'API To Do',
+    deploy: 'https://woman-up-task.vercel.app',
+    screenshot: API_BackEnd,
+    gitHub: 'https://github.com/GoldenManBel/WomanUP_Task',
+    description: {
+      Description: 'DescriptionAT',
+      Languages: 'JavaScript, NodeJS, Express',
+      Technologies: 'Mongoose, Bcrypt, Jsonwebtoken, Eslint',
+      Instruments: 'Visual Studio Code, Git',
+      Position: 'BackEndDev',
+      Role: 'RoleFull',
+    },
+  },
+  {
+    name: 'API Films',
+    deploy: 'https://github.com/GoldenManBel/API_BackEnd',
+    screenshot: API_BackEnd,
+    gitHub: 'https://github.com/GoldenManBel/API_BackEnd',
+    description: {
+      Description: 'DescriptionAF',
+      Languages: 'TypeScript, NodeJS, NestJS',
+      Technologies:
+        'Monorepo, Microservices, RabbitMQ, Postgres, Sequelize, Winston, JWT, Bcrypt, Eslint',
+      Instruments: 'Visual Studio Code, Git, Rabbit Manager, Pq Admin',
+      Position: 'BackEndDev',
+      Role: 'RoleFull',
+    },
+  },
+  {
+    name: 'Microservices gRPC',
+    deploy: 'https://github.com/GoldenManBel/Node_Microservices_gRPC',
+    screenshot: API_BackEnd,
+    gitHub: 'https://github.com/GoldenManBel/Node_Microservices_gRPC',
+    description: {
+      Description: 'DescriptionAG',
+      Languages: 'JavaScript, NodeJS, Fastify',
+      Technologies: 'Microservices, gRPC, Nodemon',
+      Instruments: 'Visual Studio Code, Git',
+      Position: 'BackEndDev',
       Role: 'RoleFull',
     },
   },

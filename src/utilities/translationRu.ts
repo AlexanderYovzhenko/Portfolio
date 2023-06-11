@@ -55,6 +55,9 @@ const translationRu = {
   DescriptionCS: 'Чат на сокете онлайн',
   DescriptionCC: 'Ковертер валют',
   DescriptionFH: 'Верстка сайта мебель для дома',
+  DescriptionAT: 'Api список дел',
+  DescriptionAF: 'Api для сайта с фильмами',
+  DescriptionAG: 'Микросервисы на gRPC',
   //Hobby
   HobbySlogan: 'Добавьте удовольствия в свою жизнь!',
   Biking: 'Велосипед',

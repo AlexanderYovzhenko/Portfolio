@@ -69,6 +69,9 @@ const translationEn = {
   DescriptionCS: 'Chat on socket online',
   DescriptionCC: 'Currency converter',
   DescriptionFH: 'Home furniture layout',
+  DescriptionAT: 'Api to do list',
+  DescriptionAF: 'Api for site of movies',
+  DescriptionAG: 'Microservices of gRPC',
   //Hobby
   HobbySlogan: 'Add fun to your life!',
   Biking: 'Biking',
