@@ -1,10 +1,13 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import styles from './About.module.scss'
+import { useAppSelector } from '../../redux-hooks/redux-hooks'
 import photo from './assets/Photo_CV.png'
-import CV from './assets/Software_Engineer_Aliaksandr_Youzhanka_CV.pdf'
+import CV_En from './assets/Software_Engineer_Aliaksandr_Youzhanka_En_CV.pdf'
+import CV_Ru from './assets/Software_Engineer_Aliaksandr_Youzhanka_Ru_CV.pdf'
 
 const About = () => {
+  const { language } = useAppSelector((state) => state.changesPage)
   const { t } = useTranslation()
 
   return (
@@ -40,7 +43,12 @@ const About = () => {
             <h2 className={styles.about__name}>{t('name')}</h2>
             <p className={styles.about__text}>{t('about_Me')}</p>
             <button className={styles['about__download-CV']}>
-              <a href={CV} target="_blank" download rel="noreferrer">
+              <a
+                href={language.value === 'en' ? CV_En : CV_Ru}
+                target="_blank"
+                download
+                rel="noreferrer"
+              >
                 {t('download')}
               </a>
             </button>
