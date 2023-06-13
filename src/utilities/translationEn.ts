@@ -1,7 +1,7 @@
 const translationEn = {
   //Header
   ClockFormat: 'hh:mm:ssa',
-  About: 'About',
+  About: 'About me',
   Skills: 'Skills',
   Education: 'Education',
   Experience: 'Experience',

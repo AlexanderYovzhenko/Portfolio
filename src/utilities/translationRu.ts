@@ -1,7 +1,7 @@
 const translationRu = {
   //Header
   ClockFormat: 'HH:mm:ss',
-  About: 'Я',
+  About: 'Обо мне',
   Skills: 'Умения',
   Education: 'Образование',
   Experience: 'Опыт',
