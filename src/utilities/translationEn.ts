@@ -10,27 +10,16 @@ const translationEn = {
   Contacts: 'Contacts',
   //About
   name: 'Aliaksandr Youzhanka',
-  about_Me: `Hello!
-  My name is Aliaksandr.
-  I am a BackEnd developer (Node.js, React) with
-  experience in JavaScript, TypeScript, NodeJS, NestJS,
-  Express, Microservices, RabbitMQ, Docker,
-  PostgreSQL, MongoDB, various ORMs, and
-  familiarity with React, Redux, HTML, and CSS.
-  I am eager to join your team to further develop my
-  skills and create useful and interesting products. My
-  main priorities are code quality, efficiency, and
-  reliability of solutions.
-  My professional experience includes developing
-  microservices and monolithic web applications, as
-  well as working in teams where I could demonstrate
-  my communication and collaboration skills.
-  I am ready to contribute to your company's projects
-  by offering innovative and efficient solutions while
-  striving for continuous professional growth.
-  I am looking forward to collaborating and hope to
-  meet with you soon!
-  Best regards, Aliaksandr`,
+  about_Me: `
+    Hello! 
+    My name is Alexander. 
+    I am a software developer with experience in JavaScript, TypeScript, NodeJS, NestJS, Express, Microservices, RabbitMQ, Docker, PostgreSQL, MongoDB, various ORMs, and familiarity with React, Redux, HTML, and CSS. 
+    I strive to enhance my skills and create useful and engaging products. 
+    My main priority is code quality, efficiency, and reliable solutions. 
+    My professional experience includes developing both microservices and monolithic web applications, as well as working in teams where I have demonstrated my communication and collaboration skills. 
+    I am ready to contribute to your company's projects by offering innovative and efficient solutions while aiming for continuous professional growth. 
+    I am eager to collaborate!
+  `,
   download: 'Download CV',
   p: 'p',
   o: 'o',
