@@ -25,9 +25,9 @@ const projects = [
   },
   {
     name: 'Fancy Weather',
-    deploy: 'https://goldenmanbel.github.io/Fancy-weather/',
+    deploy: 'https://goldenmanbel.github.io/Fancy_Weather',
     screenshot: FancyWeather,
-    gitHub: 'https://github.com/GoldenManBel/Fancy-weather',
+    gitHub: 'https://github.com/GoldenManBel/Fancy_Weather',
     description: {
       Description: 'DescriptionFW',
       Languages: 'JavaScript',
