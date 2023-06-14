@@ -53,13 +53,13 @@
         
         &:nth-child(2n) {
           .base__title {
-            color: var(--main-color-one);
+            color: var(--main-color-two);
           }
         }
   
         &:nth-child(3n) {
           .base__title {
-            color: var(--main-color-two);
+            color: var(--main-color-one);
           }
         }
   
