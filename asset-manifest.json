@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.3f5a87e9.css",
-    "main.js": "/Portfolio/static/js/main.f16edf5b.js",
+    "main.js": "/Portfolio/static/js/main.05af5a20.js",
     "static/media/Photo_CV.png": "/Portfolio/static/media/Photo_CV.592848a6b923efcae6a9.png",
     "static/media/Biking.jpg": "/Portfolio/static/media/Biking.d784871fb78a3bdedadd.jpg",
     "static/media/Fishing.jpg": "/Portfolio/static/media/Fishing.4c6b6af663e943a57ea1.jpg",
     "static/media/FancyWeather.jpg": "/Portfolio/static/media/FancyWeather.64f2b8146310eeeb8e16.jpg",
     "static/media/LayoutFurnitureForHome.jpg": "/Portfolio/static/media/LayoutFurnitureForHome.0f21b0b500e88507e8a8.jpg",
     "static/media/Vezha.jpg": "/Portfolio/static/media/Vezha.9508e4c5fbe1b8fb2eb4.jpg",
-    "static/media/Software_Engineer_Aliaksandr_Youzhanka_Ru_CV.pdf": "/Portfolio/static/media/Software_Engineer_Aliaksandr_Youzhanka_Ru_CV.2f3c1c0f51f99f5181e6.pdf",
-    "static/media/Software_Engineer_Aliaksandr_Youzhanka_En_CV.pdf": "/Portfolio/static/media/Software_Engineer_Aliaksandr_Youzhanka_En_CV.f77ff9ec1b7aa9f74da4.pdf",
+    "static/media/Software_Engineer_Aliaksandr_Youzhanka_Ru_CV.pdf": "/Portfolio/static/media/Software_Engineer_Aliaksandr_Youzhanka_Ru_CV.e0259abb91c58d3ac400.pdf",
+    "static/media/Software_Engineer_Aliaksandr_Youzhanka_En_CV.pdf": "/Portfolio/static/media/Software_Engineer_Aliaksandr_Youzhanka_En_CV.4173c50ed6dd221a44af.pdf",
     "static/media/RaindropsGame.jpg": "/Portfolio/static/media/RaindropsGame.fa5b58fa5b7ef6baf0c2.jpg",
     "static/media/RSSchool_React.jpg": "/Portfolio/static/media/RSSchool_React.3cbec2638e704851ce82.jpg",
     "static/media/RSSchool_Node.jpg": "/Portfolio/static/media/RSSchool_Node.3f1329f50fed04837b0c.jpg",
@@ -20,10 +20,10 @@
     "static/media/API_BackEnd.jpg": "/Portfolio/static/media/API_BackEnd.df003a6b03da29ffe2d7.jpg",
     "index.html": "/Portfolio/index.html",
     "main.3f5a87e9.css.map": "/Portfolio/static/css/main.3f5a87e9.css.map",
-    "main.f16edf5b.js.map": "/Portfolio/static/js/main.f16edf5b.js.map"
+    "main.05af5a20.js.map": "/Portfolio/static/js/main.05af5a20.js.map"
   },
   "entrypoints": [
     "static/css/main.3f5a87e9.css",
-    "static/js/main.f16edf5b.js"
+    "static/js/main.05af5a20.js"
   ]
 }
