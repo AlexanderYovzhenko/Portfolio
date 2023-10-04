@@ -9,9 +9,9 @@ import API_BackEnd from '../assets/API_BackEnd.jpg'
 const projects = [
   {
     name: 'Vezha',
-    deploy: 'https://goldenmanbel.github.io/project-management-app/',
+    deploy: 'https://alexanderyovzhenko.github.io/project-management-app/',
     screenshot: Vezha,
-    gitHub: 'https://github.com/GoldenManBel/project-management-app',
+    gitHub: 'https://github.com/alexanderyovzhenko/project-management-app',
     description: {
       Description: 'DescriptionVezha',
       Languages: 'TypeScript, React, NodeJS',
@@ -19,15 +19,15 @@ const projects = [
       Instruments: 'Visual Studio Code, Chrome tools, Git, WebPack, ESLint, Prettier',
       Position: 'FullStackDev',
       Role: 'RoleVezha',
-      GitHubFrontEnd: 'https://github.com/GoldenManBel/project-management-app',
-      GitHubBackEnd: 'https://github.com/GoldenManBel/Vezha_BackEnd',
+      GitHubFrontEnd: 'https://github.com/alexanderyovzhenko/project-management-app',
+      GitHubBackEnd: 'https://github.com/alexanderyovzhenko/Vezha_BackEnd',
     },
   },
   {
     name: 'Chat on Socket',
     deploy: 'https://chat-client-fawn.vercel.app',
     screenshot: ChatOnSocket,
-    gitHub: 'https://github.com/GoldenManBel/Chat',
+    gitHub: 'https://github.com/alexanderyovzhenko/Chat',
     description: {
       Description: 'DescriptionCS',
       Languages: 'TypeScript, NodeJS, Fastify, React, WebSocket',
@@ -39,9 +39,9 @@ const projects = [
   },
   {
     name: 'Raindrops Game',
-    deploy: 'https://goldenmanbel.github.io/rsschool-cv/',
+    deploy: 'https://alexanderyovzhenko.github.io/rsschool-cv/',
     screenshot: RaindropsGame,
-    gitHub: 'https://github.com/GoldenManBel/rsschool-cv/tree/raindrops',
+    gitHub: 'https://github.com/alexanderyovzhenko/rsschool-cv/tree/raindrops',
     description: {
       Description: 'DescriptionRG',
       Languages: 'JavaScript',
@@ -53,9 +53,9 @@ const projects = [
   },
   {
     name: 'Fancy Weather',
-    deploy: 'https://goldenmanbel.github.io/Fancy_Weather',
+    deploy: 'https://alexanderyovzhenko.github.io/Fancy_Weather',
     screenshot: FancyWeather,
-    gitHub: 'https://github.com/GoldenManBel/Fancy_Weather',
+    gitHub: 'https://github.com/alexanderyovzhenko/Fancy_Weather',
     description: {
       Description: 'DescriptionFW',
       Languages: 'JavaScript',
@@ -67,9 +67,9 @@ const projects = [
   },
   {
     name: 'Currency Converter',
-    deploy: 'https://goldenmanbel.github.io/Currency_Converter',
+    deploy: 'https://alexanderyovzhenko.github.io/Currency_Converter',
     screenshot: CurrencyConverter,
-    gitHub: 'https://github.com/GoldenManBel/Currency_Converter',
+    gitHub: 'https://github.com/alexanderyovzhenko/Currency_Converter',
     description: {
       Description: 'DescriptionCC',
       Languages: 'JavaScript, React, Redux, RTK, React-Router, Axios',
@@ -81,9 +81,9 @@ const projects = [
   },
   {
     name: 'Furniture of Home',
-    deploy: 'https://goldenmanbel.github.io/Layout_Furniture_for_home/',
+    deploy: 'https://alexanderyovzhenko.github.io/Layout_Furniture_for_home/',
     screenshot: LayoutFurnitureForHome,
-    gitHub: 'https://github.com/GoldenManBel/Layout_Furniture_for_home',
+    gitHub: 'https://github.com/alexanderyovzhenko/Layout_Furniture_for_home',
     description: {
       Description: 'DescriptionFH',
       Languages: 'JavaScript',
@@ -97,7 +97,7 @@ const projects = [
     name: 'API To Do',
     deploy: 'https://woman-up-task.vercel.app',
     screenshot: API_BackEnd,
-    gitHub: 'https://github.com/GoldenManBel/WomanUP_Task',
+    gitHub: 'https://github.com/alexanderyovzhenko/WomanUP_Task',
     description: {
       Description: 'DescriptionAT',
       Languages: 'JavaScript, NodeJS, Express',
@@ -109,9 +109,9 @@ const projects = [
   },
   {
     name: 'API Films',
-    deploy: 'https://github.com/GoldenManBel/API_BackEnd',
+    deploy: 'https://github.com/alexanderyovzhenko/API_BackEnd',
     screenshot: API_BackEnd,
-    gitHub: 'https://github.com/GoldenManBel/API_BackEnd',
+    gitHub: 'https://github.com/alexanderyovzhenko/API_BackEnd',
     description: {
       Description: 'DescriptionAF',
       Languages: 'TypeScript, NodeJS, NestJS',
@@ -124,9 +124,9 @@ const projects = [
   },
   {
     name: 'Microservices gRPC',
-    deploy: 'https://github.com/GoldenManBel/Node_Microservices_gRPC',
+    deploy: 'https://github.com/alexanderyovzhenko/Node_Microservices_gRPC',
     screenshot: API_BackEnd,
-    gitHub: 'https://github.com/GoldenManBel/Node_Microservices_gRPC',
+    gitHub: 'https://github.com/alexanderyovzhenko/Node_Microservices_gRPC',
     description: {
       Description: 'DescriptionAG',
       Languages: 'JavaScript, NodeJS, Fastify',
