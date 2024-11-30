@@ -13,7 +13,7 @@ const translationEn = {
   about_Me: `
     Hello! 
     My name is Alexander. 
-    I am a software developer with experience in JavaScript, TypeScript, NodeJS, NestJS, Express, Microservices, RabbitMQ, Docker, PostgreSQL, MongoDB, various ORMs, and familiarity with React, Redux, HTML, and CSS. 
+    I am a software developer with experience in JavaScript, TypeScript, NodeJS, NestJS, Express, Microservices, RabbitMQ, Nats, Docker, PostgreSQL, MongoDB, various ORMs, and familiarity with React, Redux, HTML, and CSS. 
     I strive to enhance my skills and create useful and engaging products. 
     My main priority is code quality, efficiency, and reliable solutions. 
     My professional experience includes developing both microservices and monolithic web applications, as well as working in teams where I have demonstrated my communication and collaboration skills. 
